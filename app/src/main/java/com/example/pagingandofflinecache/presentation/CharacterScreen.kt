@@ -101,7 +101,7 @@ fun CharacterItem(
                 modifier = Modifier
                     .weight(1f)
                     .height(150.dp)
-                    .background(Color.Gray)
+                    .background(Color.Gray),
             )
             Spacer(modifier = Modifier.width(16.dp))
             Column(

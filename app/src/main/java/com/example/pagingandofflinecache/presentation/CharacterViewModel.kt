@@ -16,7 +16,7 @@ class CharacterViewModel @Inject constructor(
     pager: Pager<Int, CharacterEntity>
 ): ViewModel() {
 
-    val beerPagingFlow = pager
+    val characterPagingFlow = pager
         .flow
         .map { pagingData ->
             pagingData.map { it.toCharacter() }
